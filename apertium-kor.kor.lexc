@@ -13,12 +13,19 @@ Postpositions ;
 Measures ;
 Numerals ; 
 Nouns ; 
+ProperNouns ; 
 Verbs ; 
 
-LEXICON CASES-COMMON
+LEXICON CASES-COMMON-INANIM
 
 %+의%<post%>:의 # ;
 %+하고%<post%>:하고 # ; 
+
+LEXICON CASES-COMMON-ANIM
+
+%+의%<post%>:의 # ;
+%+하고%<post%>:하고 # ; 
+%+에게%<post%>:에게 # ;
 
 LEXICON CASES-V
 
@@ -33,14 +40,24 @@ LEXICON CASES-C
 LEXICON N1 
 
 %<n%>: # ; 
-%<n%>: CASES-COMMON ; 
+%<n%>: CASES-COMMON-INANIM ; 
 %<n%>: CASES-V ; 
+%<n%>%<pl%>:들 CASES-COMMON-INANIM ; 
+%<n%>%<pl%>:들 CASES-C ; 
 
 LEXICON N2
 
 %<n%>: # ; 
-%<n%>: CASES-COMMON ; 
+%<n%>: CASES-COMMON-INANIM ; 
 %<n%>: CASES-C ; 
+%<n%>%<pl%>:들 CASES-COMMON-INANIM ; 
+%<n%>%<pl%>:들 CASES-C ; 
+
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: # ; 
+%<np%>%<ant%>%<m%>: CASES-COMMON-ANIM ; 
+%<np%>%<ant%>%<m%>: CASES-C ; 
 
 LEXICON NUM 
 
@@ -71,6 +88,7 @@ SYN-MOOD ;
 
 LEXICON TAM 
 
+%<past%>:줘요 FORMALITY ; 
 FORMALITY ;
 
 LEXICON HONORIFIC 
@@ -84,6 +102,10 @@ HONORIFIC ;
 LEXICON V-IV 
 
 %<v%>%<iv%>: VALENCY ; 
+
+LEXICON V-TV 
+
+%<v%>%<tv%>: VALENCY ; 
 
 LEXICON MEASURE
 
@@ -129,8 +151,18 @@ LEXICON Nouns
 역:역 N1 ; ! "station"
 문화:문화 N1 ; ! "culture"
 개:개 N1 ; ! "dog"
+날:날 N1 ; ! "day"
+나라:나라 N1 ; ! "country"
+아이:아이 N1 ; ! "child"
+빵:빵 N2 ; ! "bread"
+
+LEXICON ProperNouns 
+
+김:김 NP-ANT-M ; ! "Kim"
 
 LEXICON Verbs
 
 
-있:있 V-IV ; ! "to exist"
+있:있 V-IV ; ! "exist"
+
+주다:주다 V-TV ; ! "give"
