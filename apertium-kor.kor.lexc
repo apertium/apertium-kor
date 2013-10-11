@@ -1,0 +1,136 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multichar_Symbols 
+
+%<n%>
+%<post%>
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root 
+
+Postpositions ; 
+Measures ;
+Numerals ; 
+Nouns ; 
+Verbs ; 
+
+LEXICON CASES-COMMON
+
+%+의%<post%>:의 # ;
+%+하고%<post%>:하고 # ; 
+
+LEXICON CASES-V
+
+%+가%<post%>:가 # ; 
+%+를%<post%>:를 # ; 
+
+LEXICON CASES-C
+
+%+가%<post%>:이 # ; 
+%+를%<post%>:을 # ; 
+
+LEXICON N1 
+
+%<n%>: # ; 
+%<n%>: CASES-COMMON ; 
+%<n%>: CASES-V ; 
+
+LEXICON N2
+
+%<n%>: # ; 
+%<n%>: CASES-COMMON ; 
+%<n%>: CASES-C ; 
+
+LEXICON NUM 
+
+%<num%>: # ; 
+
+LEXICON NUM-ATTR
+
+%<num%>%<attr%>: # ; 
+
+LEXICON POLITENESS 
+
+# ; 
+
+LEXICON PRAG-MOOD 
+
+%<decl%>:다 POLITENESS ; 
+POLITENESS ; 
+
+LEXICON SYN-MOOD 
+
+%<indic%>:니 PRAG-MOOD ; 
+PRAG-MOOD ; 
+
+LEXICON FORMALITY
+
+%<frm%>:습 SYN-MOOD ; 
+SYN-MOOD ; 
+
+LEXICON TAM 
+
+FORMALITY ;
+
+LEXICON HONORIFIC 
+
+TAM ; 
+
+LEXICON VALENCY 
+
+HONORIFIC ; 
+
+LEXICON V-IV 
+
+%<v%>%<iv%>: VALENCY ; 
+
+LEXICON MEASURE
+
+%<cnt%>: # ; 
+
+LEXICON POST
+
+%<post%>: # ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions 
+
+는:는 POST ; ! ""
+를:를 POST ; ! ""
+
+LEXICON Measures
+
+개:개 MEASURE ; ! ""
+
+LEXICON Numerals 
+
+하나:하나 NUM ;  ! "one"
+하나:한 NUM-ATTR ; 
+
+둘:둘 NUM ; ! "two"
+둘:두 NUM-ATTR ; 
+
+셋:셋 NUM ; ! "three"
+셋:세 NUM-ATTR ; 
+
+넷:넷 NUM ; ! "four"
+넷:네 NUM-ATTR ; 
+
+다섯:다섯 NUM ; ! "five"
+
+스물:스물 NUM ; ! "twenty"
+스물:스무 NUM-ATTR ; 
+
+LEXICON Nouns 
+
+사과:사과 N1 ; ! "apple"
+역:역 N1 ; ! "station"
+문화:문화 N1 ; ! "culture"
+개:개 N1 ; ! "dog"
+
+LEXICON Verbs
+
+
+있:있 V-IV ; ! "to exist"
