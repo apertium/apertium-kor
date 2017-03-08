@@ -1,0 +1,15 @@
+Multichar_Symbols
+
+%<n%> 
+
+LEXICON Root
+
+Nouns ; 
+
+LEXICON N1 
+
+%<n%>: # ;
+
+LEXICON Nouns
+
+아바지:ㅇㅏㅂㅏㅈㅣ N1 ;

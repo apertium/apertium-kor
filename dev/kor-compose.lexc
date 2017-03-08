@@ -1,0 +1,22 @@
+Multichar_Symbols
+
+%>
+
+LEXICON Root
+
+Syll ; 
+
+LEXICON Loop 
+
+Syll ; 
+# ; 
+
+LEXICON Syll
+
+ㅇㅏ:아 Loop ; 
+ㅂㅏ:바 Loop ; 
+ㅈㅣ:지 Loop ; 
+ㅇ:ㅇ   Loop ; 
+ㅂ:ㅂ   Loop ; 
+ㅈ:ㅈ   Loop ; 
+

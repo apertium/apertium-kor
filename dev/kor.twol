@@ -1,0 +1,15 @@
+Alphabet 
+
+ ㅇ ㅏ ㅂ ㅏ ㅈ ㅣ 
+
+;
+
+Sets 
+
+Vow = ㅏ ㅏ ㅣ ; 
+
+Rules
+
+"Remove vowel?"
+ㅣ:0 <=> _ .#. ; 
+
