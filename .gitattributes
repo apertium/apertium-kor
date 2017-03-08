@@ -3,6 +3,6 @@
 /README -text
 /apertium-kor.kor.lexc -text
 dev/Makefile -text
-dev/kor-compose.lexc -text
+dev/hangul.lexc -text
 dev/kor.lexc -text
 dev/kor.twol -text
