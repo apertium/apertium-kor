@@ -142,6 +142,8 @@ LEXICON Numerals
 
 다섯:다섯 NUM ; ! "five"
 
+여섯:여섯 NUM ; ! "six"
+
 스물:스물 NUM ; ! "twenty"
 스물:스무 NUM-ATTR ; 
 
@@ -155,6 +157,7 @@ LEXICON Nouns
 나라:나라 N1 ; ! "country"
 아이:아이 N1 ; ! "child"
 빵:빵 N2 ; ! "bread"
+사람:사람 N1 ; ! "person"
 
 LEXICON ProperNouns 
 
