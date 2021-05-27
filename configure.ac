@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Korean], [0.1.0], [popcorn.tomato.dude@gmail.com], [apertium-kor], [http://wiki.apertium.org/wiki/Apertium-kor])
+AC_INIT([Apertium Korean], [0.1.0], [popcorn.tomato.dude@gmail.com], [apertium-kor], [https://wiki.apertium.org/wiki/Apertium-kor])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
