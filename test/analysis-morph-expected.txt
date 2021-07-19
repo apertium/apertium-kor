@@ -1,0 +1,10 @@
+[DWFsWv1P6xOU#0] ^다섯/다섯\<num\>$
+[/DWFsWv1P6xOU]
+[J1KgI4rXse6y#0] ^넷/넷\<num\>$
+[/J1KgI4rXse6y]
+[KO0ffYmG0h0w#0] ^셋/셋\<num\>$
+[/KO0ffYmG0h0w]
+[bvWSTsC2c9g1#0] ^는/는<post>$
+[/bvWSTsC2c9g1]
+[pXqwVxK_tgDL#0] ^개/개<n>/개\<cnt\>$
+[/pXqwVxK_tgDL]
